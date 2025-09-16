@@ -1,0 +1,56 @@
+[
+  {
+    "_id": "1757591529558",
+    "productId": "1757590740837",
+    "productName": "rice",
+    "customerId": "1757591048427",
+    "customerName": "Thabang Lebelo",
+    "quantity": 1,
+    "date": "9/11/2025, 1:52:09 PM"
+  },
+  {
+    "_id": "1757594847857",
+    "productId": "1757590813601",
+    "productName": "salt",
+    "customerId": "1757591048427",
+    "customerName": "Thabang Lebelo",
+    "quantity": 1,
+    "date": "9/11/2025, 2:47:27 PM"
+  },
+  {
+    "_id": "1757595292547",
+    "productId": "1757590740837",
+    "productName": "rice",
+    "customerId": "1757591048427",
+    "customerName": "Thabang Lebelo",
+    "quantity": 1,
+    "date": "9/11/2025, 2:54:52 PM"
+  },
+  {
+    "_id": "1757595486754",
+    "productId": "1757590813601",
+    "productName": "salt",
+    "customerId": "1757591048427",
+    "customerName": "Thabang Lebelo",
+    "quantity": 1,
+    "date": "9/11/2025, 2:58:06 PM"
+  },
+  {
+    "_id": "1757595933241",
+    "productId": "1757590740837",
+    "productName": "rice",
+    "customerId": "1757594945404",
+    "customerName": "faso",
+    "quantity": 3,
+    "date": "9/11/2025, 3:05:33 PM"
+  },
+  {
+    "_id": "1757596402620",
+    "productId": "1757590740837",
+    "productName": "rice",
+    "customerId": "1757591048427",
+    "customerName": "Thabang Lebelo",
+    "quantity": 1,
+    "date": "9/11/2025, 3:13:22 PM"
+  }
+]

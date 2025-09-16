@@ -1,0 +1,115 @@
+/* ===== Global Reset ===== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+z
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #395b7e;
+  color: #333;
+}
+
+/* ===== App Container ===== */
+.app-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.content {
+  flex: 1;
+  padding: 20px;
+}
+
+/* ===== Navbar Styling ===== */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #1f2937;
+  color: rgb(90, 43, 109);
+  padding: 15px 30px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+}
+
+.logo {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+  gap: 15px;
+}
+
+.nav-links li a {
+  text-decoration: none;
+  padding: 10px 16px;
+  color: rgb(36, 114, 97);
+  background-color: #2563eb;
+  border-radius: 6px;
+  transition: background 0.3s ease;
+}
+
+.nav-links li a:hover {
+  background-color: #1e40af;
+}
+
+/* ===== Dashboard Styling ===== */
+.dashboard {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.dashboard h2 {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+.dashboard p {
+  font-size: 16px;
+  margin-bottom: 20px;
+  color: #555;
+}
+
+.modules {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.card {
+  padding: 20px;
+  border-radius: 8px;
+  color: rgb(77, 134, 151);
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 18px;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+  transition: transform 0.3s ease, background 0.3s ease;
+}
+
+/* Different Colors for Modules */
+.card.sales { background: #16a34a; }
+.card.inventory { background: #facc15; color: #333; }
+.card.customers { background: #9333ea; }
+.card.reports { background: #ef4444; }
+.card.products { background: #f472b6; }
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+/* ===== Footer Styling ===== */
+footer {
+  background-color: #1f2937;
+  color: rgb(59, 145, 123);
+  padding: 15px;
+  text-align: center;
+  margin-top: auto;
+}

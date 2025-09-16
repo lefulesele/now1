@@ -1,0 +1,134 @@
+/* Dashboard.css */
+
+.dashboard-container {
+  font-family: 'Arial', sans-serif;
+}
+
+.dashboard-title {
+  font-size: 2rem;
+  font-weight: 700;
+  text-align: center;
+}
+
+.summary-cards {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+.card {
+  background-color: #51dae4;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  flex: 1;
+  min-width: 1000px;
+  text-align: center;
+}
+
+.card-heading {
+  font-size: 1.2rem;
+  margin-bottom: 8px;
+  font-weight: 600;
+  color: #2d3748;
+}
+
+.card-count {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #3182ce;
+}
+
+.tables-section {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.table-container {
+  background-color: #7d79a1;
+  border-radius: 12px;
+  padding: 16px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.section-title {
+  font-size: 1.4rem;
+  font-weight: 600;
+  margin-bottom: 12px;
+  color: #2d3748;
+  text-align: center;
+}
+
+.styled-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.styled-table th,
+.styled-table td {
+  padding: 12px 15px;
+  border: 1px solid #79b4a0;
+  text-align: left;
+}
+
+.styled-table th {
+  background-color: #917bc4;
+  font-weight: 600;
+}
+
+.styled-table tbody tr:hover {
+  background-color: z#264f77;
+}
+
+/* No data styling */
+.no-data {
+  text-align: center;
+  padding: 20px;
+  color: #718096;
+  font-style: italic;
+}
+
+/* Buttons styling */
+.btn {
+  padding: 12px 20px;
+  border-radius: 8px;
+  font-weight: 600;
+  text-decoration: none;
+  display: inline-block;
+  transition: background-color 0.2s, transform 0.2s;
+}
+
+.btn:hover {
+  transform: translateY(-2px);
+  opacity: 0.9;
+}
+
+.btn-blue {
+  background-color: #3182ce;
+  color: #9c8e8e;
+}
+
+.btn-blue:hover {
+  background-color: #2b6cb0;
+}
+
+.btn-green {
+  background-color: #38a169;
+  color: #4e9b74;
+}
+
+.btn-green:hover {
+  background-color: #2f855a;
+}
+
+/* Add Customer Button Style */
+.add-customer-btn button {
+  background-color: #4fd1c5;
+  color: #9ba05d;
+  border: none;
+}
+
+.add-customer-btn button:hover {
+  background-color: #38b2ac;
+}

@@ -1,0 +1,18 @@
+[
+  {
+    "_id": "1757590740837",
+    "name": "rice",
+    "description": "5KG",
+    "category": "food",
+    "price": "55",
+    "quantity": 994
+  },
+  {
+    "_id": "1757590813601",
+    "name": "salt",
+    "description": "500g",
+    "category": "food",
+    "price": "8",
+    "quantity": 86
+  }
+]
