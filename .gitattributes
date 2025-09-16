@@ -1,0 +1,2 @@
+node_modules/backend/node_modules/node/bin/node.exe filter=lfs diff=lfs merge=lfs -text
+node_modules/* filter=lfs diff=lfs merge=lfs -text
